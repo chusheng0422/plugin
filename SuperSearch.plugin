@@ -7,20 +7,17 @@
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wk\+([^&]+) https://zh.wikipedia.org/wiki/$2 302
 #wiki (Wikipedia)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wiki\+([^&]+) https://wikipedia.org/wiki/$2 302
-#sof (Stack Overflow)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=sof\+([^&]+) https://stackoverflow.com/search?q=$2 302
 
 # gh (GitHub)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gh\+([^&]+) https://github.com/search?q=$2 302
 
 # wb (微博)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wb\+([^&]+) https://s.weibo.com/weibo/$2 302
-# wx (微信)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wx\+([^&]+) https://weixin.sogou.com/weixinwap?query=$2 302
 
 # ph (PornHub)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ph\+([^&]+) https://cn.pornhub.com/video/search?search=$2 302
 
+# ms （missav）
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ms\+([^&]+) 302 https://missav.fans/cn/search/$2
 
 # bi (必应)
