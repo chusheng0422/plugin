@@ -3,7 +3,7 @@
 #!openUrl=http://www.missav.fans
 #!author=可莉[https://github.com/luestr], 毒奶[https://github.com/limbopro]
 #!tag=去广告
-#!date=2025-07-17 19:31:29（来自下面两位大佬的资源）
+#!date=2025-07-17 19:31:29
 
 [Rule]
 DOMAIN-SUFFIX, creative.myavlive.com, REJECT
