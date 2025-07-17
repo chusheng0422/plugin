@@ -1,0 +1,9 @@
+#!name=百度防跳转
+#!desc=解决Safari中疯狂跳转到百度
+
+[Script]
+# > 百度防跳转
+http-request ^https:\/\/boxer\.baidu\.com\/scheme\?scheme script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/Baidu/BaiduNoRedirect.js, tag = 百度防跳转
+
+[MITM]
+hostname = *.baidu.com
