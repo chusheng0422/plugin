@@ -1,0 +1,19 @@
+#!name=MissavNoAds
+#!desc=看个片而已，别让广告扫了兴
+#!openUrl=https://missav.fans
+#!tag=去广告
+#!date=2025-07-17 20:30:29
+
+
+[Rule]
+DOMAIN-SUFFIX, creative.myavlive.com, REJECT
+DOMAIN-SUFFIX, trackwilltrk.com, REJECT
+DOMAIN-SUFFIX, tsyndicate.com, REJECT
+
+
+[Script]
+# MissAV
+http-response ^https:\/\/missav\.(?:fans|ai|ws)\/(?!(build|fonts|img|js|api|cdn-cgi)\/). script-path = https://raw.githubusercontent.com/kokoryh/Sparkle/master/dist/missav.html.js, requires-body = true, tag = MissAV
+
+[MitM]
+hostname = missav.fans,missav.ai, missav.ws,
