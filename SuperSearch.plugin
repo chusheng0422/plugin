@@ -20,6 +20,9 @@
 
 # ph (PornHub)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ph\+([^&]+) https://cn.pornhub.com/video/search?search=$2 302
+
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ms\+([^&]+) 302 https://missav.fans/cn/search/$2
+
 # bi (必应)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=bi\+([^&]+) https://cn.bing.com/search?q=$2 302
 # ddg (DuckDuckGo)
