@@ -1,0 +1,12 @@
+#!name = 省省货主去开屏广告
+#!desc =适用于app版本：8.53.1
+#!author = 白龙
+#!icon=https://raw.githubusercontent.com/chusheng0422/plugin/refs/heads/main/8C714107-CCA8-4BE3-B728-A82B5844804A.png
+
+
+[Rewrite]
+# 开屏广告 需要清理缓存
+^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd reject-dict
+
+[MITM] 
+hostname = www.ymm56.com
