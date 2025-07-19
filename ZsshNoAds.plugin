@@ -1,11 +1,11 @@
 #!name = 掌上生活去广告
 #!desc =插件用于过滤掌上生活客户端开屏广告、设置栏目内广告、首页随机弹窗广告
-#!author = 摘自fmz200(奶思)合集 
+#!author = 摘自奶思[广告拦截&净化合集] 
 #!icon=https://raw.githubusercontent.com/chusheng0422/loon/refs/heads/main/3DE2BA39-4886-4479-8051-710E68405DF8.png?token=GHSAT0AAAAAADHQHDN3JXQCADAUTAQL5BHY2DYQYYQ
 #!tag=去广告
-#!loon_version=3.3.2(877)
 #!homepage=https://github.com/fmz200/wool_scripts
 #!date=2025-07-19 14:45:29
+#!openUrl=https://apps.apple.com/cn/app/id398453262
 
 [Rewrite]
 # 开屏广告
