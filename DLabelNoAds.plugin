@@ -4,7 +4,7 @@
 #!date=2025-06-14
 #!loon_version = 3.2.4(787)
 #!icon=https://raw.githubusercontent.com/chusheng0422/plugin/refs/heads/main/8DA76C8D-3992-4292-8555-C60AD782647F.jpeg
-#!openUrl=https://apps.apple.com/cn/app/id1397719437
+#!openUrl=https://apps.apple.com/app/id1397719437
 [Rewrite]
 ^https:\/\/imagepc\.ctaiot\.com\/dlabel\/0\/startpage reject
 ^https:\/\/dudian-oss\.oss-cn-shenzhen\.aliyuncs\.com\/dlabel\/1\/startpage reject
