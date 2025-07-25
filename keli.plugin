@@ -1,0 +1,8 @@
+#!name=可莉资源预览
+#!desc=此插件方便打开可莉资源进行预览
+[Rewrite]
+^https:\/\/(?!(pluginhub\.))((.*\.)?kelee\.one)(\/.*)? header-replace User-Agent Surge\x20iOS/9527
+^https:\/\/(?!(pluginhub\.))((.*\.)?kelee\.one)(\/.*)? response-header-add content-disposition inline
+^https:\/\/(?!(pluginhub\.))((.*\.)?kelee\.one)(\/.*)? response-header-replace content-type text/plain;\x20charset=utf-8
+[MITM]
+hostname = *.kelee.one,kelee.one
