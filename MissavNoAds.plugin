@@ -4,6 +4,11 @@
 #!tag=去广告
 #!date=2025-07-17 20:30:29（自用）
 
+[Rule]
+DOMAIN-SUFFIX, creative.myavlive.com, REJECT
+DOMAIN-SUFFIX, trackwilltrk.com, REJECT
+DOMAIN-SUFFIX, tsyndicate.com, REJECT
+
 [Rewrite]
 https://creative.live.missav.com/widgets/Spot/lib.js - reject
 
