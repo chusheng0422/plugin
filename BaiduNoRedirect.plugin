@@ -1,5 +1,7 @@
 #!name=百度防跳转
-#!desc=解决Safari中疯狂跳转到百度
+#!desc=避免百度搜索跳转到App Store下载百度App。
+
+
 
 [Script]
 ## 百度防跳转
