@@ -12,8 +12,7 @@ DOMAIN-SUFFIX, tsyndicate.com, REJECT
 
 
 [Script]
-# MissAV
-http-response ^https:\/\/missav\.(?:fans|ai|ws)\/(?!(build|fonts|img|js|api|cdn-cgi)\/). script-path = https://raw.githubusercontent.com/kokoryh/Sparkle/master/dist/missav.html.js, requires-body = true, tag = MissAV
+http-response ^https:\/\/missav\.(?:ai|ws)\/(?!(build|fonts|img|js|api|cdn-cgi)\/). script-path = https://raw.githubusercontent.com/mist-whisper/Script/master/BlockAds/Missav.js, requires-body=true, tag=移除Missav广告
 
 [MitM]
 hostname = missav.fans,missav.ai, missav.ws,
